@@ -1,0 +1,88 @@
+﻿h1{
+    color:blueviolet;
+  letter-spacing:1px;
+
+}
+h2{
+    letter-spacing:3px;
+    color:black;
+    padding-left:2px;
+}
+
+a{
+    color:aliceblue;
+    padding:7px;
+   
+}
+a:hover{
+    color:white;
+    border : 1px solid;
+    border-radius:5px;
+    border-bottom:hidden;
+    background-color:rgba(128, 128, 128, 0.45) ;
+   transition:2s;
+}
+body{
+    background-attachment:fixed;
+    background-size:cover ;
+    background-repeat:no-repeat;
+   background-position:center;
+}
+.choose-car {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    text-align:center;
+}
+.bmwlogo {
+   
+    background-attachment: scroll;
+    background-color: white;
+   padding:10px;
+}
+.bmwcar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+   position:absolute;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   color:transparent;
+    
+}
+
+.X6 {
+    
+    width: 275px;
+    height: 168px;
+    position: relative;
+    color: transparent;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-size: 300px 170px;
+}
+.X6:hover {
+        transition: 1s;
+        filter: brightness(50%);
+        font-weight: 700;
+        color:black;
+        text-align: center;
+       
+}
+
+.X {
+    width: 275px;
+    height: 168px;
+    position: relative;
+    color: transparent;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-size:300px 170px;
+}
+
+.X:hover {
+        transition: 1s;
+        filter: brightness(50%);
+        font-weight: 700;
+        color: aliceblue;
+        text-align: center;
+}

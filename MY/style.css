@@ -1,0 +1,74 @@
+.nav {
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    margin-bottom: 30px 10px;
+    background-color: rgba(194, 186, 197, 0.486);
+}
+
+body{
+    background-image:url('img/bmv_bg_2.jpg');
+    background-attachment:fixed;
+    background-size:cover ;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.nav img {
+    width: 100px;
+    height: 100px;
+}
+
+.ol-nav {
+    margin-left: 9%;
+    margin-top: -90px;
+}
+
+.ol-nav li:hover {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0 1rem;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 0.25rem solid #1c69d4;
+    border-top: 0.25rem solid #0000;
+}
+
+.ol-nav ul{
+    margin-left: 10%;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    list-style: none;
+}
+
+.ol-nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(15, 16, 17);
+}
+
+.ol-nav li {
+    padding: 10px;
+}
+
+.ol-nav span:hover {
+    background: #0000;
+    color: #fff;
+    border: 0;
+    box-shadow: none;
+}
+
+hr {
+    margin-top: 1.5%;
+    border: none; /* Убираем границу */
+    background-color: rgb(223, 217, 217); /* Цвет линии */
+    height: 2px; /* Толщина линии */
+   }
