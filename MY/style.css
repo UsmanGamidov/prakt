@@ -1,3 +1,4 @@
+
 .nav {
     width: 80%;
     margin-left: 10%;
@@ -56,19 +57,24 @@ body{
 }
 
 .ol-nav li {
+    height: 50px;
     padding: 10px;
 }
 
 .ol-nav span:hover {
     background: #0000;
-    color: #fff;
     border: 0;
     box-shadow: none;
 }
 
 hr {
     margin-top: 1.5%;
-    border: none; /* Убираем границу */
-    background-color: rgb(223, 217, 217); /* Цвет линии */
-    height: 2px; /* Толщина линии */
-   }
+    border: none;
+    background-color: rgb(223, 217, 217);
+    height: 2px;
+}
+
+/* .nav_niz {
+    background-color: #1c69d4;
+    min-height: calc(100vh-80px);
+} */

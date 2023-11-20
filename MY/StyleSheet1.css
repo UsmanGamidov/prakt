@@ -4,6 +4,7 @@
 
 }
 h2{
+    margin-top: 30px;
     letter-spacing:3px;
     color:black;
     padding-left:2px;
@@ -15,7 +16,7 @@ a{
    
 }
 a:hover{
-    color:white;
+    color: #1c69d4;
     border : 1px solid;
     border-radius:5px;
     border-bottom:hidden;
@@ -33,25 +34,29 @@ body{
     grid-template-columns: 2fr 2fr 2fr;
     text-align:center;
 }
-.bmwlogo {
-   
+.bmwlogo { 
+    width: 80%;
+    margin-left: 10%;
     background-attachment: scroll;
     background-color: white;
-   padding:10px;
+}
+.bmwlogo img {
+    margin-left: 40%;
 }
 .bmwcar {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin-left: 13%;
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
    position:absolute;
    flex-direction:column;
    justify-content:center;
    align-items:center;
    color:transparent;
-    
 }
 
 .X6 {
-    
+    margin-top: 30px;
     width: 275px;
     height: 168px;
     position: relative;
@@ -70,6 +75,7 @@ body{
 }
 
 .X {
+    margin-top: 30px;
     width: 275px;
     height: 168px;
     position: relative;
