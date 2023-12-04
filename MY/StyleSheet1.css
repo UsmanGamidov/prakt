@@ -45,7 +45,7 @@ body{
 }
 .bmwcar {
     margin-left: 13%;
-
+   position: absolute;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
    position:absolute;
